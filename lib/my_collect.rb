@@ -3,6 +3,7 @@ def my_collect(array)
   i = 0 
   while i < array.length
   new_array.push(array[i])
+  new_array[i] = new_array[i].upcase
   i += 1 
 end
 new_array
